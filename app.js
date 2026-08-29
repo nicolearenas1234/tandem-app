@@ -1,0 +1,1 @@
+document.querySelectorAll('.chips button').forEach(b=>b.onclick=()=>document.querySelector('#status').textContent='Saved for your day. You can change it anytime.');document.querySelector('#profile').onclick=()=>alert('Nicole/Micah account switching will be connected to Supabase in the next build.');
